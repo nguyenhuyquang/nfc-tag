@@ -4,25 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>NFC-Tag</title>
 </head>
 <body>
     <div class="container-fluid">
-        <div class="about-me">
-            <div class="image">
-                <img src="logo.jpeg">
+        <div class="header">
+            <h4>_quang0611_</h4>
+        </div>
+        <div class="about-me row">
+            <div class="image col-5">
+                <img src="logo.png">
+                
             </div>
-            <div class="content">
-                <p> Mình là Quang đây</p>
+            <div class="follow col-7">
+                <ul>
+                    <li>
+                        <b>09</b><br> bức ảnh
+                    </li>
+                    <li>
+                        <b>23</b><br> tuổi <br> đời
+                    </li>
+                    <li>
+                        <b>01</b> chuyến đi
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bio">
+            <h5>Quang Nguyễn</h5>
+            <p>Cuộc đời như một chuyến tàu...</p>
+
+        </div>
+        <div class="content">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#hoian" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Hội An</button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#comingsoon" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Coming soon</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="hoian" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row">
+
+                        <div class="image-it col-4">
+                            <img src="hoian/01.JPG" >
+                        </div>
+                        <div class="image-it col-4">
+                            <img src="hoian/02.JPG">
+                        </div>
+                        <div class="image-it col-4">
+                            <img src="hoian/07.JPG" >
+                        </div>
+                        <div class="image-it col-4">
+                            <img src="hoian/10.JPG" >
+                        </div>
+                        <div class="image-it col-4">
+                            <img src="hoian/11.JPG" >
+                        </div>
+                        <div class="image-it col-4">
+                            <img src="hoian/04.JPG" >
+                        </div>
+    
+                        <div class="image-it col-8">
+                            <img src="hoian/03.JPG" >
+                        </div>
+
+                        <div class="image-it col-4">
+                            <img src="hoian/06.JPG" >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="comingsoon" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    Coming Soon...
+                </div>
             </div>
 
         </div>
     </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="app.js"></script>
 </html>

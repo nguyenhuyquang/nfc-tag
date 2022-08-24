@@ -3,24 +3,83 @@ p {
     margin: 0;
 }
 
+
 .container-fluid {
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0;
-    padding-top: 50px;
+    padding-top: 30px;
+    height: 100vh;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.image {
-    text-align: center;
+.about-me {
+    margin-top: 20px;
 }
+
 .image img{
     border-radius: 50%;
-    max-width: 40%;
-    border: 1px solid black;
+    width: 100%;
+    border: 1px solid rgb(142, 142, 142);
+}
+
+.follow {
+    text-align: center;
+    padding: 0;
+    padding-top: 20px;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.follow li {
+    
+    display: inline-block;
+    width: 55px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.follow li:last-child {
+    margin-right: 0;
+}
+
+.bio {
+    margin-top: 25px;
+}
+
+.bio p {
+    font-size: 16px;
 }
 
 .content {
-    margin-top: 30px;
-    width: 70%;
-    height: auto;
-    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#comingsoon {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.image-it {
+    padding: 2px;
+    transition: transform .2s;
+}
+
+.image-it:hover, .image-it:active {
+    transform: scale(1.2);
+}
+
+.image-it img {
+    width: 100%;
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#hoian {
+    width: 100%;
+    padding-top: 20px;
 }
